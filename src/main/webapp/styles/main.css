@@ -1,0 +1,170 @@
+/* ===== Reset cơ bản ===== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+    color: #2d2d2d;
+    line-height: 1.6;
+}
+
+/* ===== Khung container ===== */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 25px 35px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+/* ===== Tiêu đề ===== */
+h1 {
+    color: #0ea5e9;
+    border-bottom: 3px solid #38bdf8;
+    padding-bottom: 8px;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+h2 {
+    margin-top: 25px;
+    font-size: 1.25rem;
+    color: #4c1d95;
+}
+
+/* ===== Album list ===== */
+.album-list p {
+    margin: 12px 0;
+    font-size: 1.05rem;
+}
+
+.album-list a {
+    text-decoration: none;
+    color: #9333ea;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.album-list a:hover {
+    color: #7e22ce;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+
+/* ===== Form ===== */
+form {
+    margin-top: 20px;
+    padding: 22px;
+    background-color: #fdf4ff;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #374151;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 360px;
+    padding: 10px;
+    border: 1px solid #c4b5fd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #4338ca;
+    transform: translateY(-2px);
+}
+
+/* ===== Bảng có kẻ ô ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95rem;
+    border: 1px solid #c7d2fe;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 14px;
+    text-align: left;
+    border: 1px solid #c7d2fe;
+}
+
+th {
+    background-color: #6366f1;
+    color: #fff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f3ff;
+}
+
+tr:hover {
+    background-color: #ede9fe;
+}
+
+/* ===== Link chung ===== */
+a {
+    color: #0ea5e9;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #0284c7;
+    text-decoration: underline;
+}
+
+/* ===== Thông báo tải xuống ===== */
+.download-message {
+    background-color: #ecfdf5;
+    color: #047857;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+    border: 1px solid #34d399;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
